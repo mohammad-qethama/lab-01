@@ -13,3 +13,11 @@ div{
   vertical-align: middle;
   
 }
+
+@media (min-width: 960px){
+body {
+  width: 960px;
+  margin: auto;
+}
+
+}

@@ -34,54 +34,99 @@ nav ul li:hover a {
   color: #555;
 } */
 @media( min-width: 480px ) and (max-width: 767px) {
-.float-left{
+.f,.h{
   width: 50%;
-  float: left;
+  /* float: left; */
   border-right: unset;
   
 
 }
-.float-right{
+.e ,.g {
   width: 50%;
-  float: right;
+  /* float: right; */
   
 }
-.height-75{
-  height: 75px;
-  line-height: 75px;
-  }
-  .height-150 {
-    height: 150px;
-    line-height: 150px;
-  }
-  .height-125{
-    height: 125px;
-    line-height: 125px;
-  }
-  .height-80{
-    height: 80px;
-    line-height: 80px;
-  }
- 
-}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}}
 
 @media( min-width:767px ) and (max-width: 960px){
-  .f-right{
-    float: right;
-  }
-  .f-left{
-    float: left;
-  }
-  .clear{
-    clear: both;
+ .a{
+  grid-column: 1/7;
+  height: 50px;
+  align-items: center;
+  justify-content: center;}
 
+  .b{
+    grid-row: 2/14;
   }
-
-  .height-75{
-    width: 100%;
-    height: 100px;
-    line-height: 100px;
+  .c{
+    grid-column: 2/3;
+    grid-row: 2/6;
   }
+  .d{
+    grid-column: 3/4;
+    grid-row: 2/6;
+  }
+ 
+  .windows{
+    grid-row: 6/11;
+    grid-column: 2/4;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .windEle{
+    flex-grow: 1;
+  }
+  .i{
+    grid-row: 11/14;
+    grid-column: 2/4;  }
 
+  .center ,.windEle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+}
+
+@media (min-width: 960px){
+  .a{
+    grid-column: 1/7;
+    height: 50px;
+    align-items: center;
+    justify-content: center;}
+  
+    .b{
+      grid-row: 2/14;
+    }
+    .c{
+      grid-column: 2/3;
+      grid-row: 2/6;
+    }
+    .d{
+      grid-column: 3/4;
+      grid-row: 2/6;
+    }
+   
+    .windows{
+      grid-row: 6/11;
+      grid-column: 2/4;
+      display: flex;
+      flex-flow: row nowrap;
+    }
+    .windEle{
+      flex-grow: 1;
+    }
+    .i{
+      grid-row: 11/14;
+      grid-column: 2/4;  }
+  
+    .center ,.windEle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 
 }
